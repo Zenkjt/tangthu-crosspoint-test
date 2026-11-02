@@ -9,7 +9,7 @@ export default {
       return new Response(JSON.stringify({
         items: [{
           title: `POST received${body?.shelf_no ? ` — shelf ${body.shelf_no}` : ""}`,
-          id: "post-test",
+          id: "post-test-v2",
           url: "https://example.com/"
         }]
       }), {
